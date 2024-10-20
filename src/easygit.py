@@ -383,7 +383,6 @@ def main() -> None:
     statusParser.add_argument("-md", "--maxDepth", default = 5, type = int, help = "Max depth of the searching")
 
     args = argParser.parse_args()
-    print(args)
 
     if args.command == "init":
         initialization()
